@@ -7,9 +7,9 @@ A dedicated repository that collects collections to practice/use in https://www.
 [cols="^1,^2,^3,^4",options="header"]
 |=========================================================================================================
 |Name|Size|Data type|How to import
-|link:datasets/tweets.zip[Tweets]|610 Ko|zip -> dump folder|mongorestore
-|http://media.mongodb.org/zips.json[Zips]|3.1 Mo|JSON|mongoimport
-|link:datasets/palbum.zip[Palbum]|731 Ko|zip -> JSON files|mongoimport
+|link:datasets/tweets.[Tweets]|610 Ko| -> dump folder|mongorestore
+|http://media.mongodb.org/.json[]|3.1 Mo|JSON|mongoimport
+|link:datasets/palbum.[Palbum]|731 Ko| -> JSON files|mongoimport
 |link:datasets/grades.json[Grades]|92 Ko|JSON|mongoimport
 |link:datasets/students.json[Students]|35 Ko|JSON|mongoimport
 |link:datasets/profiles.json[Profiles]|454 Ko|JSON|mongoimport
@@ -26,12 +26,12 @@ A dedicated repository that collects collections to practice/use in https://www.
 [cols="^1,^2,^3,^4",options="header"]
 |=========================================================================================================
 |Name|Size|Data type|How to import
-|link:datasets/people-bson.zip[People]|21 Mo|zip -> dump gzip|mongorestore --gzip
+|link:datasets/people-bson.[People]|21 Mo| -> dump g|mongorestore --g
 |link:datasets/city_inspections.json[City inspections]|24 Mo|JSON|mongoimport
 |link:datasets/companies.json[Companies]|75 Mo|JSON|mongoimport
-|https://dl.dropbox.com/s/p75zp1karqg6nnn/stocks.zip[Stocks]|85 Mo|zip -> dump folder|mongorestore
+|https://dl.dropbox.com/s/p75zp1karqg6nnn/stocks.[Stocks]|85 Mo -> dump folder|mongorestore
 |https://dl.dropbox.com/s/gxbsj271j5pevec/trades.json[Trades]|232 Mo|JSON|mongoimport
-|https://dl.dropbox.com/s/nfnvx6pggmvw5vt/enron.zip[Enron]|55 Mo|RAR (named .zip for confusion) -> dump folder|mongorestore
+|https://dl.dropbox.com/s/nfnvx6pggmvw5vt/enron.[Enron]|55 Mo|RAR (named . for confusion) -> dump folder|mongorestore
 |=========================================================================================================
 
 === List of other dataset
@@ -53,7 +53,6 @@ Use the `import.sh` script provided to insert the "small" and the "bigger" datas
 ==== Requirements:
 - Docker if you use the docker option.
 - link:https://www.mongodb.com/download-center/community[MongoDB] (mongoimport, mongorestore)
-- unzip
 - unrar (for the Enron dataset)
 
 == Contributing
